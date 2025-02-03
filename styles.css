@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aedde0 ;
+    padding: 0px 20px 0px 20px;
+}
+
+header img {
+    width: 150px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 22px;
+    margin-right: 35px;
+}
