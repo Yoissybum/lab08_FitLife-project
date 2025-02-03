@@ -8,12 +8,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #aedde0 ;
-    padding: 0px 20px 0px 20px;
+    background-color: #79ced4 ;
+    padding: 0px 40px 0px 40px;
 }
 
 header img {
-    width: 150px;
+    width: 180px;
 }
 
 .menu ul {
@@ -22,6 +22,39 @@ header img {
 
 .menu ul li {
     list-style: none;
-    font-size: 22px;
+    font-size: 30px;
     margin-right: 35px;
+}
+#inicio {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    background-image: url(https://wallpaper.forfun.com/fetch/c7/c72d488e41d5768a6debb72bbc4ec51e.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.content p {
+    margin-bottom: 40px;
+    font-size: 30px;
+
+}
+
+.content button {
+    margin-bottom: 0px;
+    font-size: 20px;
+
 }
